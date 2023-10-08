@@ -1,4 +1,4 @@
-# ens-tests
+### Here is an example of a full script to run the first time you build the contracts
 
 ```
 
