@@ -15,12 +15,6 @@ https://book.getfoundry.sh/
 
 ## Usage
 
-### Clone 
-
-```shell
-git clone https://github.com/0xbtk/ens-tests.git
-```
-
 ### Build
 
 ```shell
