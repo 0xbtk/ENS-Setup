@@ -3,10 +3,10 @@ pragma solidity ^0.8.2;
 
 import {Address} from "@openzeppelin/contracts/utils/Address.sol";
 
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
-import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol";
-import "@openzeppelin/contracts/utils/math/Math.sol";
+import "@openzeppelin/access/Ownable.sol";
+import "@openzeppelin/token/ERC1155/ERC1155.sol";
+import "@openzeppelin/token/ERC20/extensions/ERC20Votes.sol";
+import "@openzeppelin/utils/math/Math.sol";
 
 /**
  * @dev A child contract which will be deployed by the ERC20MultiDelegate utility contract
