@@ -3,7 +3,7 @@ pragma solidity ^0.8.2;
 
 import { Test } from "forge-std/Test.sol";
 
-import { ERC20Votes } from "@openzeppelin//token/ERC20/extensions/ERC20Votes.sol";
+import { ERC20Votes } from "@openzeppelin/token/ERC20/extensions/ERC20Votes.sol";
 
 import { ENSToken } from "./ENSToken.sol";
 
