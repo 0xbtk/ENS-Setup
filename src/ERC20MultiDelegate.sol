@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.2;
 
-import {Address} from "@openzeppelin/contracts/utils/Address.sol";
+import {Address} from "@openzeppelin/utils/Address.sol";
 
 import "@openzeppelin/access/Ownable.sol";
 import "@openzeppelin/token/ERC1155/ERC1155.sol";
