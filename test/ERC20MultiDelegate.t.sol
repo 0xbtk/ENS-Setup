@@ -114,7 +114,6 @@ contract ERC20MultiDelegateTest is Test {
     }
 
     // Run: forge test --mc ERC20MultiDelegateTest --mt testHappyCase -vvvv
-    // @audit _reimburse the delegator and add this to the repo
     function testHappyCase() public {
         uint256[] memory sources = new uint256[](0);
         
