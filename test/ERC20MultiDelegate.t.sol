@@ -16,7 +16,6 @@ contract ERC20MultiDelegateTest is Test {
     ERC20MultiDelegate private multiDelegate;
     address private ensToken;
     Delegator private delegator;
-    Delegator private attacker;
 
     address private source1 = makeAddr("source1");
     address private source2 = makeAddr("source2");
@@ -29,7 +28,6 @@ contract ERC20MultiDelegateTest is Test {
     function setUp() public {
 
         delegator = new Delegator();
-        attacker = new Delegator();
 
         vm.prank(address(delegator));
         ensToken = address(new ENSToken(2e18, 10e18, block.timestamp));
@@ -42,7 +40,6 @@ contract ERC20MultiDelegateTest is Test {
         vm.label(ensToken, "ENSToken");
         vm.label(address(multiDelegate), "ERC20MultiDelegate");
         vm.label(address(delegator), "delegator");
-        vm.label(address(attacker), "attacker");
         vm.label(source1, "Source One");
         vm.label(source2, "Source Two");
         vm.label(target1, "Target One");
